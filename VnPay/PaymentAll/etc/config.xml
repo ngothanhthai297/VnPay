@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <payment>
+            <vnpay_payment>
+                <payment_action>capture</payment_action> <!-- You can use another methor like capture  -->
+                <model>VnPay\PaymentAll\Model\PaymentMethod</model>
+                <active>0</active>
+                <title>VNPay Payment Gateway</title>
+                <order_status>pending</order_status>
+                <mode>1</mode>
+                <lang>VN</lang>
+            </vnpay_payment>
+        </payment>
+    </default>
+</config>
